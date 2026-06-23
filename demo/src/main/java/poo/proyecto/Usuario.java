@@ -9,13 +9,13 @@ public class Usuario{
     protected String correo;
     protected Rol rol;
 
-    public Usuario(String codigoUnico, String cedula,String nombre, String apellido, String usuario, String contraseña, String correo, Rol rol){
+    public Usuario(String codigoUnico, String cedula,String nombre, String apellido, String usuario, String contrasenia, String correo, Rol rol){
         this.codigoUnico= codigoUnico;
         this.cedula=cedula;
         this.nombre=nombre;
         this.apellido= apellido;
         this.usuario=usuario;
-        this.contrasenia=contraseña;
+        this.contrasenia=contrasenia;
         this.correo=correo;
         this.rol=rol;
     }
@@ -50,11 +50,11 @@ public class Usuario{
     public void setUsuario(String usuario){
         this.usuario=usuario;
     }
-    public String getContraseña(){
+    public String getContrasenia(){
         return contrasenia;
     }
-    public void setContraseña(String contraseña){
-        this.contrasenia=contraseña;
+    public void setContrasenia(String contrasenia){
+        this.contrasenia=contrasenia;
     }
     public String getCorreo(){
         return correo;
