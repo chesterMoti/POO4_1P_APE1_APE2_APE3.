@@ -23,5 +23,8 @@ public class Aficionado extends Usuario{
         this.paisFavorito=paisFavorito;
     }
 
+    public String toString(){
+        return super.toString() +"\nCelular: "+celular+"\nPais Favorito: "+paisFavorito;
+    }
     
 }

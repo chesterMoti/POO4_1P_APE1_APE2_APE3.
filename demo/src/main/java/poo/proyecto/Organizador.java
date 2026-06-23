@@ -23,4 +23,9 @@ public class Organizador extends Usuario{
     public void setCargo(String cargo){
         this.cargo=cargo;
     }
+
+    public String toString(){
+        return super.toString() +"\nEmpresa Organizadora: "+empresaOrganizadora+"\nCargo: "+cargo;
+    }
 }
+
