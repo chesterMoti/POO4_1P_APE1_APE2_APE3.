@@ -1,5 +1,5 @@
 package poo.proyecto;
-public class Usuario{
+public abstract class Usuario{
     protected String codigoUnico;
     protected String cedula;
     protected String nombre;
@@ -73,8 +73,7 @@ public class Usuario{
         return "Codigo unico: "+codigoUnico+"\nCedula: "+cedula+"\nNombre: "+nombre+"\nApellido"+apellido+"\nUsuario: "+usuario+"\nContrasenia: "+contrasenia+"\nCorreo: "+correo+"\nRol: "+rol;
     }
 
-
-
+    public abstract void consultarEntradas();
 
 }
 
