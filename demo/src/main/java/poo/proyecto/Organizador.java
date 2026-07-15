@@ -27,5 +27,11 @@ public class Organizador extends Usuario{
     public String toString(){
         return super.toString() +"\nEmpresa Organizadora: "+empresaOrganizadora+"\nCargo: "+cargo;
     }
+
+    @Override
+    public void consultarEntradas() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'consultarEntradas'");
+    }
 }
 
